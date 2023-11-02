@@ -348,12 +348,10 @@ footer {
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.7);
-    transition: background-color 0.3s;
 }
 
 .card-work:hover .card-inner {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card-work .card-title {
