@@ -109,6 +109,21 @@ h6 {
   padding: var(--section-header-padding);
 }
 
+.header {
+    padding: var(--header-padding);
+}
+
+.header-logo {
+    position: var(--header-logo-link-position);
+}
+
+.header-logo a {
+    display: var(--header-logo-link-display);
+    position: var(--header-logo-link-position);
+    top: var(--header-logo-link-top);
+    left: var(--header-logo-link-left);
+}
+
 .section-body {
   padding: var(--section-body-padding);
 }
@@ -142,21 +157,6 @@ h6 {
 .card-category,
 .section-tagline {
   color: var(--color-primary);
-}
-
-.header {
-    padding: var(--header-padding);
-}
-
-.header-logo {
-    position: var(--header-logo-link-position);
-}
-
-.header-logo a {
-    display: var(--header-logo-link-display);
-    position: var(--header-logo-link-position);
-    top: var(--header-logo-link-top);
-    left: var(--header-logo-link-left);
 }
 
 a:link {
